@@ -103,8 +103,9 @@ box-shadow: 1px 1px 30px -1px rgba(0,0,0,0.36);
 .temple_history {
     margin: 20px 15px;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid grey;
+    line-height: 1.5;
 }
 .events {
     display: flex;
@@ -121,6 +122,8 @@ box-shadow: 1px 1px 30px -1px rgba(0,0,0,0.36);
     width: 1000px;
     margin-top: 50px;
     border-radius: 7%;
+    -webkit-box-shadow: 1px 1px 30px -1px rgba(0,0,0,0.36); 
+box-shadow: 1px 1px 30px -1px rgba(0,0,0,0.36);
 }
 .event_card h1 {
     font-size: 36px;
