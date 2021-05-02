@@ -231,7 +231,7 @@ footer {
 }
 /*Animation*/
 .menu-btn.open .menu-btn__burger {
-    transform: translateX(-50px);
+    transform: translateX(-40px);
     background:transparent;
     box-shadow: none;
 }
