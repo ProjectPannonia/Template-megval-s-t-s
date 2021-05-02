@@ -242,3 +242,34 @@ footer {
 .menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
 }
+
+/* Dropdown */
+.menu_list {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 90px;
+    z-index: 10;
+    position: absolute;
+}
+
+.menu_list li {
+    display: block;
+}
+.menu_list li a {
+    background-color: rgb(221, 221, 180);
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 2px auto;
+    width: 200px;
+    border: 1px solid rgb(68, 66, 34);
+    border-radius: 5%;
+    font-size: 16px;
+    text-align: center;
+}
+.menu_list li a:hover {
+    background-color: rgb(223, 223, 163);
+}
