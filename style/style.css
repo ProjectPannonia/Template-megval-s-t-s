@@ -259,7 +259,8 @@ footer {
     display: block;
 }
 .menu_list li a {
-    background-color: rgb(221, 221, 180);
+    /*background-color: rgb(221, 221, 180);*/
+    background-color: rgba(109, 105, 79, 0.81);
     padding:10px;
     text-decoration: none;
     color: black;
