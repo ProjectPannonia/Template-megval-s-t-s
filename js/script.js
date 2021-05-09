@@ -14,8 +14,6 @@ menuBtn.addEventListener('click', () => {
     }
 });
 
-//const churches = document.getElementById('churches');
-
 function scrollToChurches(btnId) {
     let element;
     let elementSelector;
