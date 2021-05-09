@@ -19,17 +19,22 @@ menuBtn.addEventListener('click', () => {
 function scrollToChurches(btnId) {
     let element;
     let elementSelector;
-    
+    let yOffset = -102;
     if(btnId == "churchesBtn") {
         element = 'churches';
     } else if(btnId == "eventsBtn") {
         element = 'events_section';
     } else if(btnId == "newsBtn") {
         element = 'news';
+    } else if(btnId == "topBtn") {
+        window.scrollTo({
+            top:0,
+            behavior:'smooth'
+        })
     }
     elementSelector = document.getElementById(element);
 
-   const yOffset = -102;
+   
    const y = elementSelector.getBoundingClientRect().top + window.pageYOffset + yOffset;
    window.scrollTo({
        top: y,
